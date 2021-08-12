@@ -6,6 +6,7 @@ import About from '../Pages/About/About';
 import MainHero from "../Hero/MainHero";
 import Contact from "../Pages/Contact/Contact";
 import HomePage from "../Pages/HomePage/HomePage";
+import LiveMonitoring from "../Pages/Live/LiveMonitoring";
 
 const Navbar = () => {
     return (
@@ -23,13 +24,14 @@ const Navbar = () => {
         <NavItem name='Home' link='/home'/>
         <NavItem name='About' link='/about'/>
         <NavItem name='Contact' link='/contact'/>
-        <NavItem name='Real Time+' link='/monitor'/>
+        <NavItem name='Real Time+' link='/live'/>
       </ul>
     </div>
   </div>
 </nav>
 <Route path="/contact" component={Contact}/>
 <Route path="/about" component={About}/>
+<Route path="/live" component={LiveMonitoring}/>
 <Route exact path="/">
 <Redirect to="/home" /> : <HomePage/>
 </Route>
