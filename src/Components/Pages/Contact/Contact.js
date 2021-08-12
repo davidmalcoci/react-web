@@ -1,6 +1,10 @@
 import './Contact.css';
 
 const Contact = () => {
+    const lolz = (e) => {
+        e.preventDefault();
+        alert('This option is not yet available!')
+    }
     return (
         <div>
         <div class="newsletter-subscribe">
@@ -15,7 +19,7 @@ const Contact = () => {
         <input class="form-control" type="email" name="email" placeholder="Your Email"/>
             </div>
         <div class="form-group d-flex justify-content-center">
-            <button class="btn btn-primary mt-5" type="submit">Subscribe </button>
+            <button class="btn btn-primary mt-5" type="submit" onClick={lolz}>Subscribe </button>
             </div>
         </form>
         </div>
