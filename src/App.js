@@ -1,15 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import Button from 'react-bootstrap/Button';
+import Navbar from './Components/Navbar/Navbar';
+import MainHero from './Components/Hero/MainHero';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Button className="btn btn-danger">Hello World</Button>
-      </header>
-    </div>
+    <div>
+      <Navbar/>
+      <MainHero/>
+      </div>
   );
 }
 
