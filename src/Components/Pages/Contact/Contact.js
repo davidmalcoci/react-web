@@ -10,7 +10,7 @@ const Contact = () => {
             <p class="text-center">Send us your email and we will contact you shortly to schedule a conversation.<br/>No worries we value your privacy.</p>
             </div>
             <div class="intro">
-        <form class="form-inline" method="post">
+        <form class="form-inline" method="">
             <div class="form-group">
         <input class="form-control" type="email" name="email" placeholder="Your Email"/>
             </div>
