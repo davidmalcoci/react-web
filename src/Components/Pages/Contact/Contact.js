@@ -1,9 +1,14 @@
 import './Contact.css';
+import { useHistory } from "react-router-dom";
 
 const Contact = () => {
+    let history = useHistory();
     const lolz = (e) => {
         e.preventDefault();
         alert('This option is not yet available!')
+        return(
+            history.push('/home')
+        )
     }
     return (
         <div>
