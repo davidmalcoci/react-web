@@ -3,12 +3,13 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavItem from './NavItem';
 import './Navbar.css';
 import About from '../Pages/About';
+import MainHero from "../Hero/MainHero";
 
 
 const Navbar = () => {
     return (
       <Router>
-        <Switch>
+          <Switch>
         <div>
 <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
@@ -18,7 +19,7 @@ const Navbar = () => {
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
-        <NavItem name='Home' link='index'/>
+        <NavItem name='Home' link='/'/>
         <NavItem name='About' link='/about'/>
         <NavItem name='Contact' link='/contact'/>
         <NavItem name='Real Time+' link='/monitor'/>
@@ -26,8 +27,8 @@ const Navbar = () => {
     </div>
   </div>
 </nav>
-
 <Route path="/about" component={About}/>
+<Route path="/" component={MainHero}/>
 </div>
 </Switch>
 </Router>

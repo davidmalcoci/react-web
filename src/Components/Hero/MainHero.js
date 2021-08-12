@@ -1,6 +1,5 @@
 import './MainHero.css';
 
-
 const MainHero = () => {
     return (
         <div>
@@ -10,7 +9,7 @@ const MainHero = () => {
     <div className="col-sm-12 col-md-6">
       <h1 className="text-light">Coding on steroids</h1>
       <p className="text-white-60">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in rutrum eros, in consequat nulla. Donec ac porttitor tortor.</p>
-      <a role="button" className="btn btn-dark text-light">Give it a spin</a>
+      <a role="button" href='/about' className="btn btn-dark text-light">Give it a spin</a>
       </div>
     </div>
   </div>
