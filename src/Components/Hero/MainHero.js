@@ -1,4 +1,3 @@
-import About from '../Pages/About/About';
 import './MainHero.css';
 import { Link } from 'react-router-dom';
 

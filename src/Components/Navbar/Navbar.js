@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch, Route, Redirect, Link } from "react-ro
 import NavItem from './NavItem';
 import './Navbar.css';
 import About from '../Pages/About/About';
-import MainHero from "../Hero/MainHero";
 import Contact from "../Pages/Contact/Contact";
 import HomePage from "../Pages/HomePage/HomePage";
 import LiveMonitoring from "../Pages/Live/LiveMonitoring";
