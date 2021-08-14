@@ -1,4 +1,4 @@
-![alt text](http://img/img.png)
+![alt text](public/img/ing.png)
 <a href="https://inguzo.herokuapp.com/home" target="_blank"><h1>Demo</h1></a>
 
 
