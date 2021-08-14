@@ -1,5 +1,6 @@
-<img src='./img/img.png'>
-<h1>Demo</h1>
+![alt text](http://img/img.png)
+<a href="https://inguzo.herokuapp.com/home" target="_blank"><h1>Demo</h1></a>
+
 
 # Getting Started with Create React App
 
