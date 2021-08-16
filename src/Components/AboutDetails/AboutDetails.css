@@ -1,0 +1,13 @@
+@import url("//fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+.poppins-font-family {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.catering-the-individual {
+  line-height: 2;
+}
+
+.our-mission {
+  font-weight: 600;
+}
