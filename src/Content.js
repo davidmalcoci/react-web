@@ -4,7 +4,7 @@ import Contact from './Pages/Contact/Contact';
 import HomePage from './Pages/HomePage/HomePage';
 import LiveMonitoring from './Pages/LiveMonitoring/LiveMonitoring';
 
-const Routes = () => {
+const Content = () => {
     return (
         <Switch>
             <Route path="/contact" component={Contact}/>
@@ -22,4 +22,4 @@ const Routes = () => {
 
 }
 
-export default Routes;
+export default Content;
