@@ -1,5 +1,5 @@
 <!-- ![alt text](public/img/ing.png) -->
-See a live<a href="https://inguzo.herokuapp.com/home" target="_blank"><h1>Demo</h1></a>
+<a href="https://inguzo.herokuapp.com/home" target="_blank"><h1>Live demo</h1></a>
 
 
 
